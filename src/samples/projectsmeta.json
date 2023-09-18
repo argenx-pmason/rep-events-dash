@@ -1,0 +1,3460 @@
+[
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-0000/biostat/staging/1003_2001_kol_mtg_sep2021",
+    "status": "final",
+    "lot": "0000-1003-2001-kol-mtg-sep2021.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1002/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/csr_sdtm20211217",
+    "status": "final",
+    "lot": "1003-csr_sdtm20211217.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/csr_sdtm20211217_qc",
+    "status": "final",
+    "lot": "1003-csr-sdtm20211217-qc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/csr_sdtm20220106",
+    "status": "final",
+    "lot": "1003-csr-sdtm20220106.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/csr_sdtm20220106_qc",
+    "status": "final",
+    "lot": "1003-csr-sdtm20220106-qc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/csr_sdtm20220602",
+    "status": "final",
+    "lot": "1003-csr-sdtm20220602.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/explo_20210625",
+    "status": "final",
+    "lot": "1003-explo_20210625.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/explo_ash_sdtm20210930",
+    "status": "final",
+    "lot": "1003-explo_ash_sdtm20210930.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/explo_ltfu1_sdtm20220602",
+    "status": "development",
+    "lot": "1003-explo-ltfu1-sdtm20220602.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/exploratory",
+    "status": "final",
+    "lot": "1003-explo.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/exploratory_qc",
+    "status": "final",
+    "lot": "1003-explo-qc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1003-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1003/biostat/staging/ib_dsur_20220112",
+    "status": "final",
+    "lot": "1003-ib-dsur-20220112.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1601/biostat/staging/exploratory",
+    "status": "final",
+    "lot": "1601-explo.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-1601/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1601-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-2001/biostat/staging/exploratory",
+    "status": "final",
+    "lot": "2001-explo.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-2001/biostat/staging/exploratory2",
+    "status": "final",
+    "lot": "2001-explo2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-2001/biostat/staging/exploratory2_qc",
+    "status": "final",
+    "lot": "2001-explo2_qc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-2001/biostat/staging/exploratory3_rec20211119",
+    "status": "final",
+    "lot": "2001-exploratory3-rec20211119.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-2001/biostat/staging/exploratory3_rec20211119_qc",
+    "status": "final",
+    "lot": "2001-exploratory3-rec20211119-qc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-110/aml/argx-110-2001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/dsmb",
+    "status": "final",
+    "lot": "2009-dsmb.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2009-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2009-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "2009-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "2009-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/qc_tlf",
+    "status": "development",
+    "lot": "2009-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2010/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2010-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/bp/argx-113-2010/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2010-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/dsmb",
+    "status": "final",
+    "lot": "1802-dsmb.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/eci_snapshot",
+    "status": "final",
+    "lot": "1802-eci-snapshot.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/ia-testrun/qc_adam",
+    "status": "final",
+    "lot": "1802-ia-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/ia-testrun/qc_tlf",
+    "status": "final",
+    "lot": "1802-ia.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/argenx-SGS/Lists/1802%20IA"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/interim-analysis-ba/qc_adam",
+    "status": "final",
+    "lot": "1802-ia-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/argx-113-1802-ia/Lists/1802%20IA"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/interim-analysis-ba/qc_tlf",
+    "status": "final",
+    "lot": "1802-ia.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/interim-analysis-ema",
+    "status": "final",
+    "lot": "ia-interim-analysis-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/interim-analysis-rerun/qc_adam",
+    "status": "final",
+    "lot": "1802-ia-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/argx-113-1802-ia/Lists/1802%20IA"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/interim-analysis-rerun/qc_tlf",
+    "status": "final",
+    "lot": "1802-ia.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/interim-analysis/qc_adam",
+    "status": "final",
+    "lot": "1802-ia-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/argx-113-1802-ia/Lists/1802%20IA"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802-ia/biostat/staging/interim-analysis/qc_tlf",
+    "status": "final",
+    "lot": "1802-ia.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/adhoc",
+    "status": "final",
+    "lot": "1802-adhoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/adhoc_ccc_100_cases",
+    "status": "final",
+    "lot": "1802-adhoc-ccc-100-cases.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/adhoc_ccc_200_cases",
+    "status": "final",
+    "lot": "1802-adhoc-ccc-200-cases.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/adhoc_r_figures",
+    "status": "final",
+    "lot": "1802-adhoc-r-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/create_dummy_data",
+    "status": "final",
+    "lot": "1802-create-dummy-data.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/csr_r_figures",
+    "status": "final",
+    "lot": "1802-csr-r-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/figures_ba",
+    "status": "development",
+    "lot": "1802-figures-ba.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "1802-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/final/qc_adam",
+    "status": "development",
+    "lot": "1802-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/1802%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/final/qc_tlf",
+    "status": "development",
+    "lot": "1802-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1802-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/patient-profiles",
+    "status": "development",
+    "lot": "1802-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/posthoc",
+    "status": "development",
+    "lot": "1802-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "1802-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "1802-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/1802%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "1802-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun2/figures_ba",
+    "status": "final",
+    "lot": "1802-figures-ba.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun2/generic_adam",
+    "status": "gadam",
+    "lot": "1802-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun2/qc_adam",
+    "status": "final",
+    "lot": "1802-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/1802%20testrun2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun2/qc_tlf",
+    "status": "final",
+    "lot": "1802-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun3/generic_adam",
+    "status": "gadam",
+    "lot": "1802-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun3/qc_adam",
+    "status": "final",
+    "lot": "1802-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/1802%20testrun3"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/testrun3/qc_tlf",
+    "status": "final",
+    "lot": "1802-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/adhoc",
+    "status": "final",
+    "lot": "1902-adhoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/csr_r_figures",
+    "status": "final",
+    "lot": "1902-csr-r-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/figures",
+    "status": "final",
+    "lot": "1902-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "1902-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "1902-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "1902-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1902-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia1_final/generic_adam",
+    "status": "gadam",
+    "lot": "1902-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia1_final/qc_adam",
+    "status": "development",
+    "lot": "1902-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/1902_ia1_final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia1_final/qc_tlf",
+    "status": "development",
+    "lot": "1902-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia_testrun_20220809/generic_adam",
+    "status": "gadam",
+    "lot": "1902-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia_testrun_20220809/qc_adam",
+    "status": "final",
+    "lot": "1902-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/1902%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia_testrun_20220809/qc_tlf",
+    "status": "final",
+    "lot": "1902-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia_testrun_20230612/generic_adam",
+    "status": "gadam",
+    "lot": "1902-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia_testrun_20230612/qc_adam",
+    "status": "development",
+    "lot": "1902-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/1902_IA_testrun_2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/ia_testrun_20230612/qc_tlf",
+    "status": "final",
+    "lot": "1902-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/mhra",
+    "status": "final",
+    "lot": "1902-mhra.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/patient-profiles",
+    "status": "development",
+    "lot": "1902-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/testrun1/figures",
+    "status": "final",
+    "lot": "1902-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "1902-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "1902-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "1902-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9301/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "9301-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9301/biostat/staging/final/qc_adam",
+    "status": "development",
+    "lot": "9301-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/9301%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9301/biostat/staging/final/qc_tlf",
+    "status": "development",
+    "lot": "9301-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9301/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9301-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9301/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "9301-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/9301%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9301/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9301-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/figures_ba",
+    "status": "development",
+    "lot": "9303-figures-ba.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "9303-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/final/qc_adam",
+    "status": "development",
+    "lot": "9303-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/9303%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/final/qc_tlf",
+    "status": "development",
+    "lot": "9303-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/test",
+    "status": "development",
+    "lot": "9303-test.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/testrun1/figures_ba",
+    "status": "development",
+    "lot": "9303-figures-ba.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9303-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "9303-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-CIDP/Lists/9303%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-9303/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9303-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-1501/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1501-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-1702/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1702-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-1901/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1901-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-1907/biostat/staging/final-analysis/qc_adam",
+    "status": "final",
+    "lot": "1907-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-1907/biostat/staging/final-analysis/qc_tlf",
+    "status": "final",
+    "lot": "1907-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-1907/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1907-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-1907/biostat/staging/sc_iv",
+    "status": "final",
+    "lot": "1907-sc-iv.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2102-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "2102-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "2102-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "2102-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-hv/Lists/2102%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "2102-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/testrun2/generic_adam",
+    "status": "gadam",
+    "lot": "2102-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/testrun2/qc_adam",
+    "status": "final",
+    "lot": "2102-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-hv/Lists/2102%20testrun2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2102/biostat/staging/testrun2/qc_tlf",
+    "status": "final",
+    "lot": "2102-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2201/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2201-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2204/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2204-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2204/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2204-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2204/biostat/staging/testrun/generic_adam",
+    "status": "gadam",
+    "lot": "2204-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2204/biostat/staging/testrun/qc_adam",
+    "status": "development",
+    "lot": "2204-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-hv/Lists/2204%20testrun"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-2204/biostat/staging/testrun/qc_tlf",
+    "status": "final",
+    "lot": "2204-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-z005/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "z005-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/hv/argx-113-z006/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "z006-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/iim/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/iim/argx-113-2007/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2007-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/iim/argx-113-2011/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2011-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-0000/biostat/staging/sample_size_adhoc",
+    "status": "final",
+    "lot": "0000-sample-size-adhoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1603/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1603-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1603/biostat/staging/patient_profiles",
+    "status": "final",
+    "lot": "1603-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1603/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "1603-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "1801-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/final/qc_adam",
+    "status": "development",
+    "lot": "1801-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1801%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/final/qc_tlf",
+    "status": "development",
+    "lot": "1801-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/final_pmda/generic_adam",
+    "status": "gadam",
+    "lot": "1801-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/final_pmda/qc_adam",
+    "status": "final",
+    "lot": "1801-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1801%20final_pmda"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/final_pmda/qc_tlf",
+    "status": "final",
+    "lot": "1801-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1801-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/interim-analysis/qc_adam",
+    "status": "final",
+    "lot": "1801-ia-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1801%20ia%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/interim-analysis/qc_tlf",
+    "status": "final",
+    "lot": "1801-ia-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/iv_2_7_2_r_figures",
+    "status": "development",
+    "lot": "1801-iv-2-7-2-r-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/patient_profiles",
+    "status": "final",
+    "lot": "1801-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/pmda",
+    "status": "development",
+    "lot": "1801-pmda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/posthoc",
+    "status": "development",
+    "lot": "1801-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/testrun2/qc_adam",
+    "status": "final",
+    "lot": "1801-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1801%20testrun2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/testrun2/qc_tlf",
+    "status": "final",
+    "lot": "1801-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/testrun3/generic_adam",
+    "status": "gadam",
+    "lot": "1801-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/testrun3/qc_adam",
+    "status": "final",
+    "lot": "1801-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1801%20testrun3"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1801/biostat/staging/testrun3/qc_tlf",
+    "status": "final",
+    "lot": "1801-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/adhoc_km_r_figures",
+    "status": "final",
+    "lot": "1803-adhoc-km-r-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/create_dummy_data",
+    "status": "final",
+    "lot": "1803-create-dummy-data.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "1803-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "1803-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "1803-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1803-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia1/generic_adam",
+    "status": "gadam",
+    "lot": "1803-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia1/qc_adam",
+    "status": "final",
+    "lot": "1803-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1803%20ia1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia1/qc_tlf",
+    "status": "final",
+    "lot": "1803-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia1_intextfig",
+    "status": "final",
+    "lot": "1803-ia1-intextfig.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia1_pmda/generic_adam",
+    "status": "gadam",
+    "lot": "1803-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia1_pmda/qc_adam",
+    "status": "final",
+    "lot": "1803-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1803%20ia1%20pmda"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia1_pmda/qc_tlf",
+    "status": "final",
+    "lot": "1803-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia2/generic_adam",
+    "status": "gadam",
+    "lot": "1803-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia2/qc_adam",
+    "status": "development",
+    "lot": "1803-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1803%20ia2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/ia2/qc_tlf",
+    "status": "development",
+    "lot": "1803-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "1803-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "1803-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "1803-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1803%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "1803-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/testrun1b",
+    "status": "final",
+    "lot": "1803-testrun1b.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/testrun1b/generic_adam",
+    "status": "gadam",
+    "lot": "1803-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/testrun1b/qc_adam",
+    "status": "final",
+    "lot": "1803-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/1803%20testrun1b"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-1803/biostat/staging/testrun1b/qc_tlf",
+    "status": "final",
+    "lot": "1803-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/adhoc",
+    "status": "development",
+    "lot": "2004-adhoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/create_dummy_data",
+    "status": "final",
+    "lot": "2004-create-dummy-data.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2004-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2004-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/sample_size",
+    "status": "final",
+    "lot": "2004-sample-size.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun0/generic_adam",
+    "status": "gadam",
+    "lot": "2004-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun0/qc_adam",
+    "status": "final",
+    "lot": "2004-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun0/qc_tlf",
+    "status": "final",
+    "lot": "2004-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "2004-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "2004-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/2004%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "2004-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun2/generic_adam",
+    "status": "gadam",
+    "lot": "2004-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun2/qc_adam",
+    "status": "development",
+    "lot": "2004-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/2004%20testrun2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2004/biostat/staging/testrun2/qc_tlf",
+    "status": "development",
+    "lot": "2004-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2005-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2005-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/testrun0/generic_adam",
+    "status": "gadam",
+    "lot": "2005-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/testrun0/qc_adam",
+    "status": "final",
+    "lot": "2005-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/testrun0/qc_tlf",
+    "status": "final",
+    "lot": "2005-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "2005-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "2005-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/2005%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-2005/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "2005-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9101/biostat/staging/dsmb_20221027",
+    "status": "final",
+    "lot": "9101-dsmb-20221027.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9101/biostat/staging/ia1/generic_adam",
+    "status": "gadam",
+    "lot": "9101-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9101/biostat/staging/ia1/qc_adam",
+    "status": "final",
+    "lot": "9101-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/9101%20ISS%20ia1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9101/biostat/staging/ia1/qc_tlf",
+    "status": "final",
+    "lot": "9101-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9101/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "9101-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9101/biostat/staging/testrun1/qc_adam_pb2",
+    "status": "final",
+    "lot": "9101-adam-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9101/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9101-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/ia1/generic_adam",
+    "status": "gadam",
+    "lot": "9103-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/ia1/qc_adam",
+    "status": "final",
+    "lot": "9103-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/9103%20ISI%20ia1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/ia1/qc_tlf",
+    "status": "final",
+    "lot": "9103-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/ia1_272fig",
+    "status": "final",
+    "lot": "9103-ia1-272fig.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/ia1_isifig",
+    "status": "final",
+    "lot": "9103-ia1-isifig.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/iv_isi_r_figures",
+    "status": "final",
+    "lot": "9103-iv-isi-r-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9103-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "9103-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/9103%20ISI%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9103/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9103-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9111-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "9111-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/9111%20ISS%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/qc_adam_pb1",
+    "status": "development",
+    "lot": "9111-adam-pb1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/qc_adam_pb2",
+    "status": "development",
+    "lot": "9111-adam-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/qc_tlf_pb1",
+    "status": "development",
+    "lot": "9111-tlf-pb1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/qc_tlf_pb2",
+    "status": "development",
+    "lot": "9111-tlf-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9112-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "9112-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/qc_adam_pb1",
+    "status": "development",
+    "lot": "9112-adam-pb1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/9112%20ISE%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/qc_adam_pb2",
+    "status": "development",
+    "lot": "9112-adam-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9112-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/qc_tlf_pb1",
+    "status": "final",
+    "lot": "9112-tlf-pb1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/qc_tlf_pb2",
+    "status": "final",
+    "lot": "9112-tlf-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/generic_adam",
+    "status": "final",
+    "lot": "9113-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "9113-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-ITP/Lists/9113%20ISI%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/qc_adam_pb1",
+    "status": "development",
+    "lot": "9113-adam-pb1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/qc_adam_pb2",
+    "status": "development",
+    "lot": "9113-adam-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9113-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/qc_tlf_pb1",
+    "status": "development",
+    "lot": "9113-tlf-pb1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/qc_tlf_pb2",
+    "status": "development",
+    "lot": "9113-tlf-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/ln/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/ln/argx-113-2202/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2202-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1602/biostat/staging/fda_irr",
+    "status": "final",
+    "lot": "1602-fda-irr.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1602/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1602-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/ema",
+    "status": "final",
+    "lot": "1704-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/fda",
+    "status": "final",
+    "lot": "1704-fda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/fda2",
+    "status": "final",
+    "lot": "1704-fda2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/fda_irr",
+    "status": "final",
+    "lot": "1704-fda-irr.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/gba",
+    "status": "final",
+    "lot": "1704-gba.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/gba_test",
+    "status": "final",
+    "lot": "1704-gba-test.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/gba_test52",
+    "status": "final",
+    "lot": "1704-gba-test52.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1704-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/icer",
+    "status": "final",
+    "lot": "1704-icer.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/ma",
+    "status": "final",
+    "lot": "1704-ma.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/ma2022",
+    "status": "final",
+    "lot": "1704-ma2022.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/ma2023",
+    "status": "final",
+    "lot": "1704-ma2023.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/narratives",
+    "status": "final",
+    "lot": "1704-narratives.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/pmda",
+    "status": "final",
+    "lot": "1704-pmda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/pmda2",
+    "status": "final",
+    "lot": "1704-pmda2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "1704-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/regain",
+    "status": "final",
+    "lot": "1704-regain.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/sc_iv",
+    "status": "final",
+    "lot": "1704-sc-iv.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ema",
+    "status": "final",
+    "lot": "1705-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/fda_irr",
+    "status": "final",
+    "lot": "1705-fda-irr.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "1705-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/1705%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "1705-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/final_posthoc",
+    "status": "final",
+    "lot": "1705-final-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1705-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ia-20201008/qc_adam",
+    "status": "final",
+    "lot": "1705ia-20201008qc_adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ia-20201008/qc_tlf",
+    "status": "final",
+    "lot": "1705ia-20201008qc_tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/1705%20ia20201008"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ia-20210201/qc_adam",
+    "status": "final",
+    "lot": "1705ia-20210201qc_adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ia-20210201/qc_tlf",
+    "status": "final",
+    "lot": "1705ia-20210201qc_tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/1705%20ia20210201"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ia-20220131/generic_adam",
+    "status": "gadam",
+    "lot": "1705-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ia-20220131/qc_adam",
+    "status": "final",
+    "lot": "1705-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/1705%20ia20220131"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ia-20220131/qc_tlf",
+    "status": "final",
+    "lot": "1705-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ma2022",
+    "status": "final",
+    "lot": "1705-ma2022.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/ma2023",
+    "status": "final",
+    "lot": "1705-ma2023.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/narratives",
+    "status": "final",
+    "lot": "1705-narratives.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/pmda2",
+    "status": "final",
+    "lot": "1705-pmda2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1705/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "1705-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/ema",
+    "status": "final",
+    "lot": "2001-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/fda",
+    "status": "final",
+    "lot": "2001-fda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "2001-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2001%20final%2020220204"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "2001-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/ma2023",
+    "status": "final",
+    "lot": "2001-ma2023.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/pmda",
+    "status": "final",
+    "lot": "2001-pmda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/pmda_q1",
+    "status": "development",
+    "lot": "2001-pmda-q1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "2001-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/sc_iv",
+    "status": "final",
+    "lot": "2001-sc-iv.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "2001-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2001%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "2001-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/testrun2/qc_adam",
+    "status": "development",
+    "lot": "2001-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2001%20testrun2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/testrun2/qc_tlf",
+    "status": "final",
+    "lot": "2001-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/testrun3/qc_adam",
+    "status": "development",
+    "lot": "2001-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2001%20testrun3"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/testrun3/qc_tlf",
+    "status": "final",
+    "lot": "2001-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ema",
+    "status": "final",
+    "lot": "2002-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/exploratory",
+    "status": "final",
+    "lot": "2002-explo.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/fda",
+    "status": "final",
+    "lot": "2002-fda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia1/qc_adam",
+    "status": "development",
+    "lot": "2002-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2002%20IA1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia1/qc_tlf",
+    "status": "final",
+    "lot": "2002-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia2",
+    "status": "development",
+    "lot": "2002-ia2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia2/generic_adam",
+    "status": "gadam",
+    "lot": "2002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia2/qc_adam",
+    "status": "development",
+    "lot": "2002-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2002%20IA2"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia2/qc_tlf",
+    "status": "final",
+    "lot": "2002-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia2_1yr/generic_adam",
+    "status": "gadam",
+    "lot": "2002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia2_1yr/qc_adam",
+    "status": "development",
+    "lot": "2002-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2002%20IA2_1yr"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ia2_1yr/qc_tlf",
+    "status": "final",
+    "lot": "2002-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/ma2023",
+    "status": "final",
+    "lot": "2002-ma2023.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/narratives",
+    "status": "final",
+    "lot": "2002-narratives.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2002-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/pmda",
+    "status": "final",
+    "lot": "2002-pmda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/pmda_1yr",
+    "status": "final",
+    "lot": "2002-pmda-1yr.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/pmda_1yr_q1",
+    "status": "final",
+    "lot": "2002-pmda-1yr-q1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/pmda_ia1_q1",
+    "status": "final",
+    "lot": "2002-pmda-ia1-q1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "2002-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "2002-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2002%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "2002-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/yearly_cycles",
+    "status": "final",
+    "lot": "2002-yearly-cycles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2003-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia1/generic_adam",
+    "status": "gadam",
+    "lot": "2003-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia1/qc_adam",
+    "status": "final",
+    "lot": "2003-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2003%20ia1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia1/qc_tlf",
+    "status": "final",
+    "lot": "2003-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia1_posthoc",
+    "status": "final",
+    "lot": "2003-ia1-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia2_testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "2003-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia2_testrun1/output",
+    "status": "final",
+    "lot": "2003-output.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia2_testrun1/qc_adam",
+    "status": "development",
+    "lot": "2003-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2003%20ia2%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia2_testrun1/qc_tlf",
+    "status": "final",
+    "lot": "2003-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "2003-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/2003%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "2003-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2006/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2006-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2008/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2008-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9001/biostat/staging/fda",
+    "status": "final",
+    "lot": "9001-fda.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9002/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "9002-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9004/biostat/staging/backup-tlf",
+    "status": "final",
+    "lot": "9004-backup-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9004/biostat/staging/iss-90d-su/qc_adam-pb2",
+    "status": "final",
+    "lot": "9004-90d-su_adam_pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/ISS%2090d"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9004/biostat/staging/iss-90d-su/qc_tlf",
+    "status": "final",
+    "lot": "9004-90d-su_tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9004/biostat/staging/yearly_cycles",
+    "status": "final",
+    "lot": "9004-yearly_cycles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9011/biostat/staging/ema",
+    "status": "final",
+    "lot": "9011-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9011/biostat/staging/iss-20210201/qc_adam-pb2",
+    "status": "final",
+    "lot": "9011-adam_pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/9011%20ISS20210201"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9011/biostat/staging/iss-20210201/qc_adam-pb3",
+    "status": "final",
+    "lot": "9011-adam_pb3.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9011/biostat/staging/iss-20210201/qc_tlf",
+    "status": "final",
+    "lot": "9011-iss-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9011/biostat/staging/ma2022",
+    "status": "final",
+    "lot": "9011-ma2022.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9011/biostat/staging/pmda2",
+    "status": "final",
+    "lot": "9011-pmda2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9011/biostat/staging/yearly_cycles",
+    "status": "final",
+    "lot": "9011-yearly_cycles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9012/biostat/staging/ema",
+    "status": "final",
+    "lot": "9012-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9012/biostat/staging/ma",
+    "status": "final",
+    "lot": "9012-ma.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9012/biostat/staging/regain",
+    "status": "final",
+    "lot": "9012-regain.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9013/biostat/staging/ema",
+    "status": "final",
+    "lot": "9013-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/ema",
+    "status": "final",
+    "lot": "9021-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "9021-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "9021-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/9021%20ISS%20SC%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "9021-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/pmda_q1",
+    "status": "final",
+    "lot": "9021-pmda-q1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "9021-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/testrun1/qc_adam_pb1",
+    "status": "final",
+    "lot": "9021-adam-pb1.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/9021%20ISS%20SC%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/testrun1/qc_adam_pb2",
+    "status": "final",
+    "lot": "9021-adam-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9021/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9021-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9022/biostat/staging/eff_subm",
+    "status": "final",
+    "lot": "9022-eff-subm.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9023/biostat/staging/ema",
+    "status": "final",
+    "lot": "9023-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9023/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "9023-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9023/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "9023-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/9023%20SC%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9023/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "9023-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9023/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "9023-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9023/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "9023-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/9023%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9023/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9023-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9025/biostat/staging/final/generic_adam",
+    "status": "gadam",
+    "lot": "9025-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9025/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "9025-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/9025%20SC%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9025/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "9025-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9025/biostat/staging/pmda_1yr",
+    "status": "final",
+    "lot": "9025-pmda-1yr.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9025/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "9025-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9031/biostat/staging/ema",
+    "status": "final",
+    "lot": "9031-ema.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9031/biostat/staging/iss_20220131/generic_adam",
+    "status": "gadam",
+    "lot": "9031-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9031/biostat/staging/iss_20220131/qc_adam_pb2",
+    "status": "final",
+    "lot": "9031-adam-pb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-mg/Lists/9031%20ISS20220131"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9031/biostat/staging/iss_20220131/qc_tlf",
+    "status": "final",
+    "lot": "9031-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9031/biostat/staging/ma2022",
+    "status": "final",
+    "lot": "9031-ma2022.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9041/biostat/staging/dsmb",
+    "status": "final",
+    "lot": "9041-dsmb.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9041/biostat/staging/final_adam",
+    "status": "final",
+    "lot": "9041-final-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-9041/biostat/staging/ma2023",
+    "status": "final",
+    "lot": "9041-ma2023.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mn/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mn/argx-113-2203/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2203-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1701/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "1701-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1701/biostat/staging/final/qc_tlf",
+    "status": "final",
+    "lot": "1701-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-pemphigus/Lists/1701%20final"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1701/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1701-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1701/biostat/staging/patient_profiles",
+    "status": "final",
+    "lot": "1701-pp.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1701/biostat/staging/posthoc",
+    "status": "final",
+    "lot": "1701-posthoc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/csr_figures",
+    "status": "final",
+    "lot": "1904-csr-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/csr_r_figures",
+    "status": "final",
+    "lot": "1904-csr-r-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/dsmb2",
+    "status": "final",
+    "lot": "1904-dsmb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/dsmb3",
+    "status": "final",
+    "lot": "1904-dsmb3.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1904-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/generic_sdtm",
+    "status": "final",
+    "lot": "1904-generic-sdtm.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "1904-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "1904-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "1904-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-pemphigus/Lists/1904%20testrun%201"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "1904-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/testrun2/generic_adam",
+    "status": "gadam",
+    "lot": "1904-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/testrun2/qc_adam",
+    "status": "final",
+    "lot": "1904-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-pemphigus/Lists/1904%20testrun%202"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/testrun2/qc_tlf",
+    "status": "final",
+    "lot": "1904-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1905/biostat/staging/dsmb2",
+    "status": "final",
+    "lot": "1905-dsmb2.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1905/biostat/staging/dsmb3",
+    "status": "final",
+    "lot": "1905-dsmb3.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1905/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1905-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1905/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "1905-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1905/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "1905-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1905/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "1905-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-pemphigus/Lists/1905%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1905/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "1905-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9201/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9201-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9201/biostat/staging/testrun1/qc_adam",
+    "status": "final",
+    "lot": "9201-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-pemphigus/Lists/9201%20ISS%20testrun%201"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9201/biostat/staging/testrun1/qc_tlf",
+    "status": "final",
+    "lot": "9201-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9202/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9202-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9202/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "9202-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9202/biostat/staging/testrun1/qc_tlf",
+    "status": "development",
+    "lot": "9202-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9203/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "9203-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9203/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "9203-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-113-pemphigus/Lists/9203%20ISI%20testrun%201"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-9203/biostat/staging/testrun1/qc_tlf",
+    "status": "development",
+    "lot": "9203-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pots/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pots/argx-113-2104/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2104-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/sjogren/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/sjogren/argx-113-2106/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2106-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/ted/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/ted/argx-113-2301/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2301-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/ted/argx-113-2309/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2309-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/ted/argx-113-2310/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2310-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-0000/biostat/staging/brc",
+    "status": "final",
+    "lot": "0000-brc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-0000/biostat/staging/dsmb_ae_smq",
+    "status": "final",
+    "lot": "0000-dsmb-ae-smq.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-0000/biostat/staging/ma",
+    "status": "final",
+    "lot": "0000-ma.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-0000/biostat/staging/psur_20221216",
+    "status": "final",
+    "lot": "0000-psur-20221216.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-0000/biostat/staging/psur_20221216/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-9006/biostat/staging/iss/generic_adam",
+    "status": "gadam",
+    "lot": "9006-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-9006/biostat/staging/iss/qc_adam",
+    "status": "development",
+    "lot": "9006-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-9006/biostat/staging/iss/qc_tlf",
+    "status": "development",
+    "lot": "9006-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/covid-19/argx-117-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/covid-19/argx-117-2001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/dgf/argx-117-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/dgf/argx-117-2201/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2201-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/dm/argx-117-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/dm/argx-117-2301/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2301-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "1901-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/ia_csr",
+    "status": "final",
+    "lot": "1901-ia-csr.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/interim-analysis/qc_adam",
+    "status": "final",
+    "lot": "1901-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/interim-analysis/qc_tlf",
+    "status": "final",
+    "lot": "1901-ia.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad4_figures",
+    "status": "final",
+    "lot": "1901-mad4-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad4_lock/generic_adam",
+    "status": "gadam",
+    "lot": "1901-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad4_lock/qc_adam",
+    "status": "final",
+    "lot": "1901-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-117-hv/Lists/1901%20mad4_lock"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad4_lock/qc_tlf",
+    "status": "final",
+    "lot": "1901-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad4_tables",
+    "status": "final",
+    "lot": "1901-mad4-tables.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad5_figures_pub_iv",
+    "status": "final",
+    "lot": "1901-mad5-figures-pub-iv.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad5_lock/generic_adam",
+    "status": "gadam",
+    "lot": "1901-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad5_lock/qc_adam",
+    "status": "final",
+    "lot": "1901-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-117-hv/Lists/1901%20mad5_lock"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad5_lock/qc_tlf",
+    "status": "final",
+    "lot": "1901-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/hv/argx-117-1901/biostat/staging/mad5_tables",
+    "status": "final",
+    "lot": "1901-mad5-tables.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/exploratory",
+    "status": "development",
+    "lot": "2002-exploratory.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/ia_cohort1_lock/generic_adam",
+    "status": "gadam",
+    "lot": "2002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/ia_cohort1_lock/qc_adam",
+    "status": "development",
+    "lot": "2002-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-117-mmn/Lists/2002%20ia_cohort1_lock"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/ia_cohort1_lock/qc_tlf",
+    "status": "final",
+    "lot": "2002-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2002-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/pns_abstract_01",
+    "status": "development",
+    "lot": "2002-pns-abstract-01.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2003/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2003-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2003/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2003-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/x-ind/argx-117-0000/biostat/staging/dsur_20230219",
+    "status": "final",
+    "lot": "0000-dsur-20230219.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/x-ind/argx-117-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/cms/argx-119-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/cms/argx-119-2301/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2301-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/cms/argx-119-2302/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2302-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/hv/argx-119-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/hv/argx-119-2201/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "2201-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/hv/argx-119-2201/biostat/staging/idmc",
+    "status": "development",
+    "lot": "2201-idmc.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/hv/argx-119-2201/biostat/staging/patient_profiles",
+    "status": "development",
+    "lot": "2201-patient-profiles.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/hv/argx-119-2201/biostat/staging/testrun1/generic_adam",
+    "status": "gadam",
+    "lot": "2201-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/hv/argx-119-2201/biostat/staging/testrun1/qc_adam",
+    "status": "development",
+    "lot": "2201-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": "https://argenxbvba.sharepoint.com/sites/Biostatistics/argx-119-hv/Lists/2201%20testrun1"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/hv/argx-119-2201/biostat/staging/testrun1/qc_tlf",
+    "status": "development",
+    "lot": "2201-tlf.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/argx-119/x-ind/argx-119-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gadam-tests/test-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gadam-tests/test-0001/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "0001-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gadam-tests/test-0001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gadam-tests/test-0002/biostat/staging/final/qc_adam",
+    "status": "final",
+    "lot": "0002-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gadam-tests/test-0002/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gadam-tests/test-0003/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0003-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gadam-tests/test-0004/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0004-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/gsdtm-tests/gsdtm-test-0001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/cdisc-pilot-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/cdisc-pilot-0001/biostat/staging/fda_rconsortium",
+    "status": "final",
+    "lot": "0001-fda-rconsortium.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/cdisc-pilot-0001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/cdisc-pilot-0001/biostat/staging/rstudio_teams_uat",
+    "status": "final",
+    "lot": "0001-rstudio-teams-uat.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/test-0000/biostat/staging/figures",
+    "status": "final",
+    "lot": "0000-figures.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/test-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/test-001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/test-002/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/training-001/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "001-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/indic/training-002/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "002-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  },
+  {
+    "reporting_event_path": "/clinical/test/x-ind/test-0000/biostat/staging/generic_adam",
+    "status": "gadam",
+    "lot": "0000-generic-adam.xlsx",
+    "lot_sheet": "LOT$A3:O",
+    "sharepoint_list": ""
+  }
+]

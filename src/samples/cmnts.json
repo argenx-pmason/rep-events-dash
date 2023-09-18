@@ -1,0 +1,57 @@
+[
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/adhoc",
+    "dbnote": "status is final, but reldays (21) <30",
+    "nameLastModified": "qc_narratives.sas"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1802/biostat/staging/adhoc_r_figures",
+    "dbnote": "status is final, but reldays (11) <30",
+    "nameLastModified": "argx-113-1802_Figures_Adhoc.xlsx"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/cidp/argx-113-1902/biostat/staging/adhoc",
+    "dbnote": "status is final, but reldays (21) <30",
+    "nameLastModified": "qc_narratives.sas"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/itp/argx-113-9112/biostat/staging/testrun1/qc_tlf_pb1",
+    "dbnote": "status is final, but reldays (1) <30",
+    "nameLastModified": "obscnt.sas"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/ma",
+    "dbnote": "status is final, but reldays (21) <30",
+    "nameLastModified": "job_t_param_improve_cycle_week_symptom.mnf"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-1704/biostat/staging/ma2023",
+    "dbnote": "status is final, but reldays (1) <30",
+    "nameLastModified": "job_t_basechar_mse_c1.lst"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/mg/argx-113-2002/biostat/staging/exploratory",
+    "dbnote": "status is final, but reldays (3) <30",
+    "nameLastModified": "fseroneg_20230703.R"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/csr_r_figures",
+    "dbnote": "status is final, but reldays (11) <30",
+    "nameLastModified": "argx-113-pv_Intext.xlsx"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/pemphigus/argx-113-1904/biostat/staging/testrun1/qc_tlf",
+    "dbnote": "status is final, but reldays (3) <30",
+    "nameLastModified": "repemeta_resolved.sas7bdat"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-113/x-ind/argx-113-0000/biostat/staging/brc",
+    "dbnote": "status is final, but reldays (1) <30",
+    "nameLastModified": "job_ae_argx.mnf"
+  },
+  {
+    "reporting_event_path": "/clinical/argx-117/mmn/argx-117-2002/biostat/staging/ia_cohort1_lock/qc_tlf",
+    "dbnote": "status is final, but reldays (4) <30",
+    "nameLastModified": "job_t_eff_auc_desc.mnf"
+  }
+]

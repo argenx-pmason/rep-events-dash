@@ -1,0 +1,101 @@
+[
+  {
+    "nreevents": 494,
+    "summfiles": 138054,
+    "summsize": 78060344298,
+    "status": "All",
+    "compound": "",
+    "indication": "",
+    "study": "",
+    "retype": "All",
+    "sizemb": 78060.34
+  },
+  {
+    "nreevents": 238,
+    "summfiles": 36413,
+    "summsize": 10455801359,
+    "status": "All",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "cro oversight",
+    "sizemb": 10455.8
+  },
+  {
+    "nreevents": 256,
+    "summfiles": 101641,
+    "summsize": 67604542939,
+    "status": "All",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "reporting event",
+    "sizemb": 67604.54
+  },
+  {
+    "nreevents": 51,
+    "summfiles": 9036,
+    "summsize": 2831570747,
+    "status": "development",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "cro oversight",
+    "sizemb": 2831.57
+  },
+  {
+    "nreevents": 29,
+    "summfiles": 10474,
+    "summsize": 7884305378,
+    "status": "development",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "reporting event",
+    "sizemb": 7884.31
+  },
+  {
+    "nreevents": 131,
+    "summfiles": 24164,
+    "summsize": 5734386765,
+    "status": "final",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "cro oversight",
+    "sizemb": 5734.39
+  },
+  {
+    "nreevents": 139,
+    "summfiles": 48708,
+    "summsize": 9588758369,
+    "status": "final",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "reporting event",
+    "sizemb": 9588.76
+  },
+  {
+    "nreevents": 56,
+    "summfiles": 3213,
+    "summsize": 1889843847,
+    "status": "gadam",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "cro oversight",
+    "sizemb": 1889.84
+  },
+  {
+    "nreevents": 88,
+    "summfiles": 42459,
+    "summsize": 50131479192,
+    "status": "gadam",
+    "compound": "All",
+    "indication": "All",
+    "study": "All",
+    "retype": "reporting event",
+    "sizemb": 50131.48
+  }
+]
