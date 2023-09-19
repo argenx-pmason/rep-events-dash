@@ -11,6 +11,7 @@ import {
   Link,
   MenuItem,
   Menu,
+  // Button,
 } from "@mui/material";
 import {
   DataGridPro,
@@ -22,11 +23,15 @@ import {
   // GridRowEditStopReasons,
   // GridToolbarExport,
 } from "@mui/x-data-grid-pro";
-import { Info } from "@mui/icons-material";
+import { Info, RocketLaunchTwoTone, RocketTwoTone } from "@mui/icons-material";
 import MenuIcon from "@mui/icons-material/Menu";
 import { getJsonFile, formatBytes } from "./utility";
 import "./App.css";
 import sampleMetaPlusLink from "./samples/metapluslink.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
+import sampleCmnts from "./samples/cmnts.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
+import sampleAllsumm from "./samples/allsumm.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
+import sampleAllsummtot from "./samples/allsummtot.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
+import TableDialog from "./TableDialog";
 
 // apply the license for data grid
 LicenseInfo.setLicenseKey(
@@ -44,7 +49,28 @@ function App() {
     userJsonDir = webDavPrefix + "/general/biostat/metadata/projects", // location of JSON files on LSAF
     [stats, setStats] = useState({}), // stats about the data
     [openInfo, setOpenInfo] = useState(false), // shows dialog with info about this screen
+    [openCmnts, setOpenCmnts] = useState(false), // shows comments dialog
+    [openAllsumm, setOpenAllsumm] = useState(false), // shows allsumm dialog
+    [openAllsummtot, setOpenAllsummtot] = useState(false), // shows allsummtot dialog
     [metaPlusLink, setMetaPlusLink] = useState(null), // data for main table
+    [cmnts, setCmnts] = useState(null), // data for comments table
+    [allsumm, setAllsumm] = useState(null), // data for allsumm table
+    [allsummtot, setAllsummtot] = useState(null), // data for allsummtot table
+    [allsumm2, setAllsumm2] = useState(null), // calculate some ratios
+    [allsummtot2, setAllsummtot2] = useState(null), // calculate some ratios
+    columnSequence = [
+      "id",
+      "status",
+      "compound",
+      "indication",
+      "study",
+      "retype",
+      "nreevents",
+      "summfiles",
+      "sizemb",
+      "summsize",
+      "bytesPerFile",
+    ], // set sequence for columns in tables that use TableDialog
     topMargin = 50, // height of the AppBar
     iconWidth = 40, // width of the icons in the table
     green = "rgba(128, 255, 128, 0.5)",
@@ -425,11 +451,33 @@ function App() {
   // load initial files
   useEffect(() => {
     if (mode === "local") {
+      console.log("loading local data");
       setMetaPlusLink(sampleMetaPlusLink); // sample data for development/testing
+      setCmnts(sampleCmnts); // sample data for development/testing
+      setAllsumm(sampleAllsumm); // sample data for development/testing
+      setAllsummtot(sampleAllsummtot); // sample data for development/testing
     } else {
       getJsonFile(userJsonDir + "/metapluslink.json", setMetaPlusLink); // data for main table
+      getJsonFile(userJsonDir + "/cmnts.json", setCmnts); // data for comments table
+      getJsonFile(userJsonDir + "/allsumm.json", setAllsumm); // data for allsumm table
+      getJsonFile(userJsonDir + "/allsummtot.json", setAllsummtot); // data for allsummtot table
     }
   }, [mode, userJsonDir]);
+
+  // modify data to calculate some ratios
+  useEffect(() => {
+    if (allsumm === null || allsummtot === null) return;
+    const tempAllsummtot2 = allsummtot.map((row) => {
+      const bytesPerFile = row.summsize / row.summfiles;
+      return { ...row, bytesPerFile: bytesPerFile };
+    });
+    setAllsummtot2(tempAllsummtot2);
+    const tempAllsumm2 = allsumm.map((row) => {
+      const bytesPerFile = row.summsize / row.summfiles;
+      return { ...row, bytesPerFile: bytesPerFile };
+    });
+    setAllsumm2(tempAllsumm2);
+  }, [allsumm, allsummtot]);
 
   // gather some stats
   useEffect(() => {
@@ -470,8 +518,68 @@ function App() {
             </IconButton>
           </Tooltip>
           <Box color="inherit">Reporting Events Dashboard</Box>
+          <Box sx={{ flexGrow: 1 }}></Box>
+          {cmnts && (
+            <Tooltip title={`View ${cmnts.length} issues found`}>
+              <IconButton
+                onClick={() => {
+                  setOpenCmnts(true);
+                }}
+                color="inherit"
+                sx={{
+                  // mt: 0.75,
+                  fontSize: "1em",
+                  backgroundColor: "#990000",
+                  border: 0.5,
+                  padding: 0.5,
+                }}
+              >
+                {cmnts.length}
+              </IconButton>
+            </Tooltip>
+          )}
+          {allsummtot && (
+            <Tooltip title="View overview of file sizes">
+              <IconButton
+                onClick={() => {
+                  setOpenAllsummtot(true);
+                }}
+                color="inherit"
+                sx={{
+                  // mt: 0.75,
+                  fontSize: "0.8em",
+                  borderColor: "primary.main",
+                  border: 0.5,
+                  padding: 0.25,
+                  ml: 2,
+                }}
+              >
+                <RocketLaunchTwoTone />
+              </IconButton>
+            </Tooltip>
+          )}
+          {allsumm && (
+            <Tooltip title="View reporting event file sizes">
+              <IconButton
+                onClick={() => {
+                  setOpenAllsumm(true);
+                }}
+                color="inherit"
+                sx={{
+                  // mt: 0.75,
+                  fontSize: "0.8em",
+                  borderColor: "primary.main",
+                  border: 0.5,
+                  padding: 0.25,
+                  ml: 2,
+                }}
+              >
+                <RocketTwoTone />
+              </IconButton>
+            </Tooltip>
+          )}
           <Box
-            sx={{ flexGrow: 1, fontSize: "0.8em", textAlign: "right" }}
+            sx={{ flexGrow: 0.5, fontSize: "0.8em", textAlign: "right" }}
           >{`Active Reporting Events (${stats.repEvents}), with dashboard (${stats.dashboards}) - Total created SAS programs: ${stats.totalProgs} - Total created outputs: ${stats.totalOutputs}`}</Box>
           <Tooltip title="Information about this screen">
             <IconButton
@@ -558,7 +666,6 @@ function App() {
             // }}
           />
         )}
-
         <Menu
           anchorEl={anchorEl}
           id="link-menu"
@@ -587,9 +694,75 @@ function App() {
             </MenuItem>
           ))}
         </Menu>
-
+        {/* Display dialog with table of comments */}
+        <TableDialog
+          open={openCmnts}
+          setOpenCmnts={setOpenCmnts}
+          title={"Comments from analysis of Reporting Events"}
+          data={cmnts}
+          columnSequence={[
+            "reporting_event_path",
+            "dbnote",
+            "nameLastModified",
+            "id",
+          ]}
+          labelSequence={[
+            "Reporting event path",
+            "Message",
+            "Name Last Modified",
+            "id",
+          ]}
+          columnWidths={[500, 250, 400, 50]}
+        />
+        <TableDialog
+          open={openAllsummtot}
+          setOpenCmnts={setOpenAllsummtot}
+          title={"Stats on size of files in Reporting Events"}
+          data={allsummtot2}
+          columnSequence={columnSequence}
+          labelSequence={[
+            "Nb Reporting events",
+            "Nb Files",
+            "Total size",
+            "Status",
+            "Compound",
+            "Indication",
+            "Study",
+            "Reporting event type",
+            "Total size (MB)",
+            "Bytes per file",
+          ]}
+          columnWidths={[159, 92, 150, 120, 85, 95, 151, 152, 122, 123, 124]}
+        />
+        <TableDialog
+          open={openAllsumm}
+          setOpenCmnts={setOpenAllsumm}
+          title={"Stats on size of files in Reporting Event Types"}
+          data={allsumm2}
+          columnSequence={columnSequence}
+          labelSequence={[
+            "Status",
+            "Compound",
+            "Indication",
+            "Study",
+            "Reporting event type",
+            "Nb Reporting events",
+            "Nb Files",
+            "Total size",
+            "Total size (MB)",
+            "Bytes per file",
+          ]}
+          columnWidths={[120, 90, 91, 150, 152, 141, 93, 122, 124, 50]}
+        />
         {/* Dialog with General info about this screen */}
-        <Dialog fullWidth onClose={() => setOpenInfo(false)} open={openInfo}>
+        <Dialog
+          fullWidth
+          maxWidth="xl"
+          onClose={() => setOpenInfo(false)}
+          open={openInfo}
+          title={"Comments from analysis"}
+          data={cmnts}
+        >
           <DialogTitle>Info about this screen</DialogTitle>
           <DialogContent>
             <ul>
@@ -603,9 +776,52 @@ function App() {
                   gadam_jobs_info
                 </a>
               </li>
+              <li>
+                The SAS program creates several JSON files which are then used
+                with this app:
+              </li>
+              <ul>
+                <li>
+                  <a
+                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/metapluslink.json"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Data for the main table
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/cmnts.json"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Data for issues found
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/allsummtot.json"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Data for summary of space used by reporting events
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/allsumm.json"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Data for space used for each reporting event
+                  </a>
+                </li>
+              </ul>
             </ul>
           </DialogContent>
         </Dialog>
+        )
       </Box>
     </div>
   );

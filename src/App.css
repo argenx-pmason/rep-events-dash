@@ -36,6 +36,15 @@
   background-color: #ddffdd;
 }
 
+.number-cell {
+  color: #0000ff;
+}
+
+.all-cell {
+  /* outline: 1px solid lightgray; */
+  opacity: 0.5;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
