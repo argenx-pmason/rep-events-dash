@@ -39,6 +39,7 @@ LicenseInfo.setLicenseKey(
 );
 
 function App() {
+  document.title = "Reporting Events";
   const { href } = window.location, // get the URL so we can work out where we are running
     mode = href.startsWith("http://localhost") ? "local" : "remote", // local or remote, which is then used for development and testing
     webDavPrefix = "https://xarprod.ondemand.sas.com/lsaf/webdav/repo", // prefix for webdav access to LSAF
