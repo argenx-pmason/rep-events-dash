@@ -139,6 +139,7 @@ function App() {
       },
       { field: "indication", headerName: "Indication", width: 80 },
       { field: "study", headerName: "Study", width: 100 },
+      { field: "re", headerName: "Reporting Event", width: 175 },
       {
         field: "reporting_event_path",
         headerName: "File Viewer",
