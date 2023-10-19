@@ -11,7 +11,7 @@ import {
   Link,
   MenuItem,
   Menu,
-  // Button,
+  Button,
 } from "@mui/material";
 import {
   DataGridPro,
@@ -821,6 +821,28 @@ function App() {
                 </li>
               </ul>
             </ul>
+            <Tooltip title={"Email technical programmers"}>
+              <Button
+                sx={{
+                  color: "blue",
+                  border: 1,
+                  borderColor: "blue",
+                  borderRadius: 1,
+                  padding: 0.4,
+                  float: "right",
+                }}
+                onClick={() => {
+                  window.open(
+                    "mailto:qs_tech_prog@argenx.com?subject=Question&body=This email was sent from: " +
+                      encodeURIComponent(href) +
+                      "%0D%0A%0D%0AMy question is:",
+                    "_blank"
+                  );
+                }}
+              >
+                Email
+              </Button>
+            </Tooltip>
           </DialogContent>
         </Dialog>
         )
