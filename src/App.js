@@ -32,6 +32,7 @@ import sampleCmnts from "./samples/cmnts.json"; // made in LSAF --> /general/bio
 import sampleAllsumm from "./samples/allsumm.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
 import sampleAllsummtot from "./samples/allsummtot.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
 import TableDialog from "./TableDialog";
+import links from "./links.json";
 
 // apply the license for data grid
 LicenseInfo.setLicenseKey(
@@ -84,48 +85,48 @@ function App() {
     handleCloseMenu = () => {
       setAnchorEl(null);
     },
-    links = [
-      {
-        name: "Old Reporting Event Dashboard",
-        url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/jobs/dashboard/dev/output/dashboard.html",
-      },
-      {
-        name: "Search SAS programs",
-        url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/search_sas_progs/search_sas_progs.html",
-      },
-      {
-        name: "GADAM jobs",
-        url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/gadam/documents/gadam_dshb/gadam_jobs/jobs.html",
-      },
-      {
-        name: "STAR documentation",
-        url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/Programming%20documentation/html-1.0/index.aspx",
-      },
-      {
-        name: "Studies Summary",
-        url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/gadam/documents/gadam_dshb/study_info/studies_info.html",
-      },
-      {
-        name: "GADAM Data Refresh Events",
-        url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/gadam/documents/gadam_dshb/gadam_events/gadam_dshb.html",
-      },
-      {
-        name: "Insight - studies",
-        url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/insight/studies.aspx",
-      },
-      {
-        name: "Insight - TLF bundles",
-        url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/Final%20TLF%20bundles/folder_tree.aspx",
-      },
-      {
-        name: "Insight - AEs",
-        url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/insight/ae.aspx",
-      },
-      {
-        name: "LSAF sync",
-        url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/lsafsync/app/index.html",
-      },
-    ],
+    // links = [
+    //   {
+    //     name: "Old Reporting Event Dashboard",
+    //     url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/jobs/dashboard/dev/output/dashboard.html",
+    //   },
+    //   {
+    //     name: "Search SAS programs",
+    //     url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/search_sas_progs/search_sas_progs.html",
+    //   },
+    //   {
+    //     name: "GADAM jobs",
+    //     url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/gadam/documents/gadam_dshb/gadam_jobs/jobs.html",
+    //   },
+    //   {
+    //     name: "STAR documentation",
+    //     url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/Programming%20documentation/html-1.0/index.aspx",
+    //   },
+    //   {
+    //     name: "Studies Summary",
+    //     url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/gadam/documents/gadam_dshb/study_info/studies_info.html",
+    //   },
+    //   {
+    //     name: "GADAM Data Refresh Events",
+    //     url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/gadam/documents/gadam_dshb/gadam_events/gadam_dshb.html",
+    //   },
+    //   {
+    //     name: "Insight - studies",
+    //     url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/insight/studies.aspx",
+    //   },
+    //   {
+    //     name: "Insight - TLF bundles",
+    //     url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/Final%20TLF%20bundles/folder_tree.aspx",
+    //   },
+    //   {
+    //     name: "Insight - AEs",
+    //     url: "https://argenxbvba.sharepoint.com/sites/Biostatistics/insight/ae.aspx",
+    //   },
+    //   {
+    //     name: "LSAF sync",
+    //     url: "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/lsafsync/app/index.html",
+    //   },
+    // ],
     columnsMetaPlusLink = [
       {
         field: "compound",
