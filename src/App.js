@@ -47,7 +47,7 @@ function App() {
     fileViewerPrefix =
       "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd:/general/biostat/tools/fileviewer/index.html?file=",
     logViewerPrefix =
-      "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/logviewer/index.html",
+      "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/logviewer2/index.html",
     userJsonDir = webDavPrefix + "/general/biostat/metadata/projects", // location of JSON files on LSAF
     [stats, setStats] = useState({}), // stats about the data
     [openInfo, setOpenInfo] = useState(false), // shows dialog with info about this screen
@@ -259,13 +259,20 @@ function App() {
         width: iconWidth,
         align: "center",
         headerAlign: "center",
-        description: "Open LOT spreadsheet for this reporting event",
+        description:
+          "Open LOT spreadsheet for this reporting event (if it exists)",
         renderCell: (cellValues) => {
           const { value, row } = cellValues;
-          // console.log(cellValues)
+          console.log("cellValues", cellValues);
           if (value) {
             return (
-              <Tooltip title={`Open LOT spreadsheet: ${value}`}>
+              <Tooltip
+                title={
+                  row.lot_exists === 0
+                    ? "LOT spreadsheet was not found"
+                    : `Open LOT spreadsheet: ${value}`
+                }
+              >
                 <IconButton
                   color="info"
                   onClick={() => {
@@ -281,7 +288,7 @@ function App() {
                   }}
                   sx={{ fontSize: "10px" }}
                 >
-                  🟢
+                  {row.lot_exists === 0 ? "🔴" : "🟢"}
                 </IconButton>
               </Tooltip>
             );
