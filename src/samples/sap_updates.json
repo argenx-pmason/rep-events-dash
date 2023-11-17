@@ -1,0 +1,51 @@
+[
+  {
+    "xlsx": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/documents/ARGX-113-2009_SAP_LOT.xlsx",
+    "docx": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/documents/ARGX-113-2009_SAP_Final v1.2.docx",
+    "date": "03NOV23",
+    "time": " 8:29:36",
+    "checked": 1
+  },
+  {
+    "xlsx": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/documents/ARGX-113-2009_SAP_Final v1.2SAP_LOT.xlsx",
+    "docx": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/documents/ARGX-113-2009_SAP_Final v1.2.docx",
+    "date": "03NOV23",
+    "time": " 8:29:36",
+    "checked": 0
+  },
+  {
+    "xlsx": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/documents/ARGX-113-2009_SAP_LOT.xlsx",
+    "docx": "/clinical/argx-113/bp/argx-113-2009/biostat/staging/testrun1/documents/ARGX-113-2009_SAP_Final v1.2.docx",
+    "date": "03NOV23",
+    "time": " 9:09:00",
+    "checked": 0
+  },
+  {
+    "xlsx": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/documents/argx-113-9111_SAP_LOT.xlsx",
+    "docx": "/clinical/argx-113/itp/argx-113-9111/biostat/staging/testrun1/documents/ARGX-113-ITP-ISS SAP_Draft 0.4.docx",
+    "date": "08NOV23",
+    "time": " 3:42:50",
+    "checked": 0
+  },
+  {
+    "xlsx": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/documents/argx-113-9113_SAP_LOT.xlsx",
+    "docx": "/clinical/argx-113/itp/argx-113-9113/biostat/staging/testrun1/documents/ARGX-113-ITP ISI IV SC SAP v0.4.docx",
+    "date": "08NOV23",
+    "time": " 3:44:17",
+    "checked": 0
+  },
+  {
+    "xlsx": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/final/documents/argx-113-2001_SAP_LOT.xlsx",
+    "docx": "/clinical/argx-113/mg/argx-113-2001/biostat/staging/final/documents/ARGX-113-2001 Statistical Analysis Plan - final.docx",
+    "date": "03NOV23",
+    "time": "11:10:35",
+    "checked": 0
+  },
+  {
+    "xlsx": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia2_testrun1/documents/argx-113-2003_SAP_LOT.xlsx",
+    "docx": "/clinical/argx-113/mg/argx-113-2003/biostat/staging/ia2_testrun1/documents/ARGX-113-2003_interim2_SAP_draft v0.3.docx",
+    "date": "05NOV23",
+    "time": " 9:39:29",
+    "checked": 0
+  }
+]

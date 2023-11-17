@@ -12,6 +12,7 @@ import {
   MenuItem,
   Menu,
   Button,
+  Chip,
 } from "@mui/material";
 import {
   DataGridPro,
@@ -31,6 +32,7 @@ import sampleMetaPlusLink from "./samples/metapluslink.json"; // made in LSAF --
 import sampleCmnts from "./samples/cmnts.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
 import sampleAllsumm from "./samples/allsumm.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
 import sampleAllsummtot from "./samples/allsummtot.json"; // made in LSAF --> /general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas
+import sampleSapUpdates from "./samples/sap_updates.json"; // made in LSAF --> /general/biostat/jobs/dashboard/dev/programs/sapextract.sas
 import TableDialog from "./TableDialog";
 import links from "./links.json";
 
@@ -49,7 +51,11 @@ function App() {
     logViewerPrefix =
       "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/logviewer2/index.html",
     userJsonDir = webDavPrefix + "/general/biostat/metadata/projects", // location of JSON files on LSAF
+    sapDir =
+      webDavPrefix + "/general/biostat/jobs/dashboard/dev/output/sapxlsx", // location of SAP files on LSAF
     [stats, setStats] = useState({}), // stats about the data
+    [openLotInfo, setOpenLotInfo] = useState(false), // shows dialog for LOT info
+    [selectedLot, setSelectedLot] = useState(null), // data for selected LOT
     [openInfo, setOpenInfo] = useState(false), // shows dialog with info about this screen
     [openCmnts, setOpenCmnts] = useState(false), // shows comments dialog
     [openAllsumm, setOpenAllsumm] = useState(false), // shows allsumm dialog
@@ -60,6 +66,7 @@ function App() {
     [allsummtot, setAllsummtot] = useState(null), // data for allsummtot table
     [allsumm2, setAllsumm2] = useState(null), // calculate some ratios
     [allsummtot2, setAllsummtot2] = useState(null), // calculate some ratios
+    [sapUpdates, setSapUpdates] = useState(null), // data for sap updates
     columnSequence = [
       "id",
       "status",
@@ -262,24 +269,18 @@ function App() {
         description:
           "Open LOT spreadsheet for this reporting event (if it exists)",
         renderCell: (cellValues) => {
-          const { value, row } = cellValues;
-          console.log("cellValues", cellValues);
+          const { value, row } = cellValues,
+            { reporting_event_path } = row;
           if (value) {
             return (
-              <Tooltip
-                title={
-                  row.lot_exists === 0
-                    ? "LOT spreadsheet was not found"
-                    : `Open LOT spreadsheet: ${value}`
-                }
-              >
+              <Tooltip title={`Open LOT spreadsheet: ${value}`}>
                 <IconButton
                   color="info"
                   onClick={() => {
                     window
                       .open(
                         fileViewerPrefix +
-                          row.reporting_event_path +
+                          reporting_event_path +
                           "/documents/" +
                           value,
                         "_blank"
@@ -288,7 +289,63 @@ function App() {
                   }}
                   sx={{ fontSize: "10px" }}
                 >
-                  {row.lot_exists === 0 ? "🔴" : "🟢"}
+                  🟢
+                </IconButton>
+              </Tooltip>
+            );
+          } else return null;
+        },
+      },
+      {
+        field: "LOT_sheet",
+        headerName: "SAP",
+        width: iconWidth,
+        align: "center",
+        headerAlign: "center",
+        description: "Review LOT spreadsheet automatically generated from SAP",
+        renderCell: (cellValues) => {
+          const { value, row } = cellValues,
+            { reporting_event_path } = row,
+            expectedPathLot = reporting_event_path
+              .split("/")
+              .slice(0, -1)
+              .join("/");
+          console.log("row", row);
+          console.log("sapUpdates", sapUpdates);
+          console.log("expectedPathLot", expectedPathLot);
+          if (sapUpdates && value) {
+            // see if we have a match from the list of LOTs
+            const match = sapUpdates.find((row) => {
+              const path = row.xlsx.split("/").slice(0, -2).join("/");
+              return path === expectedPathLot;
+            });
+            if (match) console.log("match", match);
+            let checked = null,
+              date = "";
+            if (match) {
+              checked = match.checked;
+              date = " (Created on " + match.date + ")";
+            }
+            console.log("checked", checked);
+            return (
+              <Tooltip
+                title={
+                  checked === null
+                    ? "Automatically generated LOT workbook was not found"
+                    : `Review automatically generated LOT workbook ${date}`
+                }
+              >
+                <IconButton
+                  color="info"
+                  onClick={() => {
+                    if (checked !== null) {
+                      setSelectedLot(match);
+                      setOpenLotInfo(true);
+                    }
+                  }}
+                  sx={{ fontSize: "10px" }}
+                >
+                  {checked === null ? "▫" : checked === 1 ? "✅" : "❎"}
                 </IconButton>
               </Tooltip>
             );
@@ -466,13 +523,15 @@ function App() {
       setCmnts(sampleCmnts); // sample data for development/testing
       setAllsumm(sampleAllsumm); // sample data for development/testing
       setAllsummtot(sampleAllsummtot); // sample data for development/testing
+      setSapUpdates(sampleSapUpdates); // sample data for development/testing
     } else {
       getJsonFile(userJsonDir + "/metapluslink.json", setMetaPlusLink); // data for main table
       getJsonFile(userJsonDir + "/cmnts.json", setCmnts); // data for comments table
       getJsonFile(userJsonDir + "/allsumm.json", setAllsumm); // data for allsumm table
       getJsonFile(userJsonDir + "/allsummtot.json", setAllsummtot); // data for allsummtot table
+      getJsonFile(sapDir + "/sap_updates.json", setSapUpdates);
     }
-  }, [mode, userJsonDir]);
+  }, [mode, userJsonDir, sapDir]);
 
   // modify data to calculate some ratios
   useEffect(() => {
@@ -853,6 +912,140 @@ function App() {
             </Tooltip>
           </DialogContent>
         </Dialog>
+        {/* Dialog for automatically generated LOT workbook */}
+        <Dialog
+          fullWidth
+          maxWidth="xl"
+          onClose={() => setOpenLotInfo(false)}
+          open={openLotInfo}
+          title={"Automatically generated LOT workbook info"}
+        >
+          <DialogTitle>LOT spreadsheet info</DialogTitle>
+          <DialogContent>
+            {selectedLot && (
+              <Box>
+                The LOT workbook was created on
+                <b> {selectedLot.date}</b> at <b>{selectedLot.time}</b> from an
+                SAP (word document). Currently the way to mark the LOT as
+                checked OK, is to examine the SAP document and the LOT workbook
+                and then toggle the "checked" flag by downloading the JSON file,
+                editing it and uploading it. This will be automated in the
+                future.
+                <p />
+                <Tooltip title={"View SAP word document"}>
+                  <Button
+                    sx={{
+                      color: "blue",
+                      border: 1,
+                      borderColor: "blue",
+                      borderRadius: 1,
+                      padding: 0.4,
+                      // float: "right",
+                    }}
+                    onClick={() => {
+                      window
+                        .open(
+                          "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd:" +
+                            selectedLot.docx,
+                          "_blank"
+                        )
+                        .focus();
+                    }}
+                  >
+                    View SAP Document
+                  </Button>
+                </Tooltip>
+                <Tooltip title={"View LOT workbook"}>
+                  <Button
+                    sx={{
+                      ml: 2,
+                      mr: 2,
+                      color: "blue",
+                      border: 1,
+                      borderColor: "blue",
+                      borderRadius: 1,
+                      padding: 0.4,
+                      // float: "right",
+                    }}
+                    onClick={() => {
+                      window
+                        .open(
+                          "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd:" +
+                            selectedLot.xlsx,
+                          "_blank"
+                        )
+                        .focus();
+                    }}
+                  >
+                    View LOT Spreadsheet
+                  </Button>
+                </Tooltip>
+                <Tooltip
+                  title={
+                    "NOT YET IMPLEMENTED: Toggle checked after you have checked the LOT and verified it is OK"
+                  }
+                >
+                  <Chip
+                    label={
+                      selectedLot.checked
+                        ? "LOT has been checked, and is OK"
+                        : "LOT has not been checked"
+                    }
+                    color={selectedLot.checked ? "success" : "error"}
+                    onClick={() => {
+                      console.log('TODO: implement toggle of "checked" flag');
+                    }}
+                  />
+                </Tooltip>
+                <Tooltip title={"Download the SAP updates JSON file"}>
+                  <Button
+                    sx={{
+                      ml: 2,
+                      mr: 2,
+                      color: "blue",
+                      border: 1,
+                      borderColor: "blue",
+                      borderRadius: 1,
+                      padding: 0.4,
+                      // float: "right",
+                    }}
+                    onClick={() => {
+                      window
+                        .open(sapDir + "/sap_updates.json", "_blank")
+                        .focus();
+                    }}
+                  >
+                    🔽
+                  </Button>
+                </Tooltip>
+                <Tooltip title={"View the SAP updates JSON file"}>
+                  <Button
+                    sx={{
+                      ml: 2,
+                      mr: 2,
+                      color: "blue",
+                      border: 1,
+                      borderColor: "blue",
+                      borderRadius: 1,
+                      padding: 0.4,
+                      // float: "right",
+                    }}
+                    onClick={() => {
+                      window
+                        .open(
+                          fileViewerPrefix + sapDir + "/sap_updates.json",
+                          "_blank"
+                        )
+                        .focus();
+                    }}
+                  >
+                    🔍
+                  </Button>
+                </Tooltip>
+              </Box>
+            )}
+          </DialogContent>
+        </Dialog>{" "}
         )
       </Box>
     </div>
