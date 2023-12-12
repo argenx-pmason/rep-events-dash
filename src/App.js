@@ -182,32 +182,32 @@ function App() {
           } else return null;
         },
       },
-      {
-        field: "relink",
-        headerName: "Old Dash",
-        width: iconWidth,
-        align: "center",
-        headerAlign: "center",
-        description: "Open old-style dashboard for this reporting event",
-        renderCell: (cellValues) => {
-          const { value } = cellValues;
-          if (value) {
-            return (
-              <Tooltip title={`Open old study dashboard`}>
-                <IconButton
-                  color="info"
-                  onClick={() => {
-                    window.open(value, "_blank").focus();
-                  }}
-                  sx={{ fontSize: "16px" }}
-                >
-                  😷
-                </IconButton>
-              </Tooltip>
-            );
-          } else return null;
-        },
-      },
+      // {
+      //   field: "relink",
+      //   headerName: "Old Dash",
+      //   width: iconWidth,
+      //   align: "center",
+      //   headerAlign: "center",
+      //   description: "Open old-style dashboard for this reporting event",
+      //   renderCell: (cellValues) => {
+      //     const { value } = cellValues;
+      //     if (value) {
+      //       return (
+      //         <Tooltip title={`Open old study dashboard`}>
+      //           <IconButton
+      //             color="info"
+      //             onClick={() => {
+      //               window.open(value, "_blank").focus();
+      //             }}
+      //             sx={{ fontSize: "16px" }}
+      //           >
+      //             😷
+      //           </IconButton>
+      //         </Tooltip>
+      //       );
+      //     } else return null;
+      //   },
+      // },
       {
         field: "relink_new",
         headerName: "New Dash",
