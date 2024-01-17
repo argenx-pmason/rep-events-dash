@@ -312,7 +312,7 @@ function App() {
                     ? "✅"
                     : checked === "-1"
                     ? "❌"
-                    : "❎"}
+                    : "🟧"}
                 </IconButton>
               </Tooltip>
             );
@@ -983,10 +983,26 @@ function App() {
                   <Chip
                     label={
                       selectedLot.checked === "1"
-                        ? "LOT has been checked, and is OK"
-                        : "LOT has not been checked"
+                        ? "EDIT (LOT has been checked, and is OK)"
+                        : selectedLot.checked === "-1"
+                        ? "EDIT (LOT has been checked, and is NOT OK)"
+                        : "EDIT (LOT has not been checked)"
                     }
-                    color={selectedLot.checked === "1" ? "success" : "error"}
+                    sx={{
+                      backgroundColor:
+                        selectedLot.checked === "1"
+                          ? "green"
+                          : selectedLot.checked === "-1"
+                          ? "red"
+                          : "orange",
+                      color:
+                        selectedLot.checked === "1"
+                          ? "white"
+                          : selectedLot.checked === "-1"
+                          ? "white"
+                          : "black",
+                    }}
+                    // color={selectedLot.checked === "1" ? "success" : "error"}
                     onClick={() => {
                       window
                         .open(
