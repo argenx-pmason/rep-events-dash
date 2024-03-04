@@ -44,15 +44,12 @@ LicenseInfo.setLicenseKey(
 
 function App() {
   document.title = "Reporting Events";
-  const { href } = window.location, // get the URL so we can work out where we are running
+  const { href, hostname } = window.location, // get the URL so we can work out where we are running
     mode = href.startsWith("http://localhost") ? "local" : "remote", // local or remote, which is then used for development and testing
-    webDavPrefix = "https://xarprod.ondemand.sas.com/lsaf/webdav/repo", // prefix for webdav access to LSAF
-    filedownloadPrefix =
-      "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A//", // prefix for filedownload access to LSAF
-    fileViewerPrefix =
-      "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd:/general/biostat/tools/fileviewer/index.html?file=",
-    logViewerPrefix =
-      "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/logviewer2/index.html",
+    webDavPrefix = `https://${hostname}/lsaf/webdav/repo`, // prefix for webdav access to LSAF
+    filedownloadPrefix = `https://${hostname}/lsaf/filedownload/sdd%3A//`, // prefix for filedownload access to LSAF
+    fileViewerPrefix = `https://${hostname}/lsaf/filedownload/sdd:/general/biostat/tools/fileviewer/index.html?file=`,
+    logViewerPrefix = `https://${hostname}/lsaf/webdav/repo/general/biostat/tools/logviewer2/index.html`,
     userJsonDir = webDavPrefix + "/general/biostat/metadata/projects", // location of JSON files on LSAF
     sapDir = webDavPrefix + "/general/biostat/jobs/dashboard/dev/metadata", // location of SAP files on LSAF
     [stats, setStats] = useState({}), // stats about the data
@@ -486,6 +483,7 @@ function App() {
   useEffect(() => {
     if (mode === "local") {
       console.log("loading local data");
+      console.log("window", window);
       setMetaPlusLink(sampleMetaPlusLink); // sample data for development/testing
       setCmnts(sampleCmnts); // sample data for development/testing
       setAllsumm(sampleAllsumm); // sample data for development/testing
@@ -810,7 +808,7 @@ function App() {
               <li>
                 Data for this report is produced by the SAS program{" "}
                 <a
-                  href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=/general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas"
+                  href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=/general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas`}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -824,7 +822,7 @@ function App() {
               <ul>
                 <li>
                   <a
-                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/metapluslink.json"
+                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/metapluslink.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -833,7 +831,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/cmnts.json"
+                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/cmnts.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -842,7 +840,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/allsummtot.json"
+                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/allsummtot.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -851,7 +849,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href="https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/metadata/projects/allsumm.json"
+                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/allsumm.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -859,6 +857,17 @@ function App() {
                   </a>
                 </li>
               </ul>
+              <li>
+                Take a look at this document that explains this screen some
+                more:{" "}
+                <a
+                  href={`https://argenxbvba.sharepoint.com/:w:/r/sites/Biostatistics/_layouts/15/doc.aspx?sourcedoc=%7B520a4831-183b-48f5-a579-8093e019cc05%7D`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Reporting Events Dashboard User Guide
+                </a>
+              </li>
             </ul>
             <Tooltip title={"Email technical programmers"}>
               <Button
@@ -919,7 +928,7 @@ function App() {
                     onClick={() => {
                       window
                         .open(
-                          "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd:" +
+                          `https://${hostname}/lsaf/filedownload/sdd:` +
                             selectedLot.xlsx,
                           "_blank"
                         )
@@ -944,7 +953,7 @@ function App() {
                     onClick={() => {
                       setSapCheck(
                         selectedLot,
-                        "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json",
+                        `https://${hostname}/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json`,
                         1,
                         setMessage
                       );
@@ -968,7 +977,7 @@ function App() {
                     onClick={() => {
                       setSapCheck(
                         selectedLot,
-                        "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json",
+                        `https://${hostname}/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json`,
                         -1,
                         setMessage
                       );
@@ -1031,7 +1040,7 @@ function App() {
                     onClick={() => {
                       window
                         .open(
-                          "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd:" +
+                          `https://${hostname}/lsaf/filedownload/sdd:` +
                             selectedLot.docx,
                           "_blank"
                         )

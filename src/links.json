@@ -7,18 +7,18 @@
     "group": "study"
   },
   {
+    "id": "search-tools",
+    "name": "🔍 Search Tools",
+    "description": "This displays the available search tools for TLF programs, outputs, ADaM datasets and SVG graphics.",
+    "url": "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/search_tools.html",
+    "group": "study"
+  },
+  {
     "id": "studies",
     "name": "🙍🏼‍♂️ Studies Resource Management",
     "description": "Set key dates, assign resources and visualise this in Gantt charts.",
     "url": "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/studies/index.html",
     "group": "study"
-  },
-  {
-    "id": "search-sas-progs",
-    "name": "🔍 Search SAS programs",
-    "description": "Anna's app to search SAS programs on LSAF for text.",
-    "url": "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/search_sas_progs/search_sas_progs.html",
-    "group": "code"
   },
   {
     "id": "gadam-jobs",
@@ -38,14 +38,14 @@
     "id": "resources_monitoring",
     "name": "📺 LSAF Resources Monitoring",
     "description": "Resources are recorded to CSV files every 5 minutes. This app reads these files and displays the data in a dashboard.",
-    "url": "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/resources_monitoring/index.html",
+    "url": "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/resources_monitoring02/index.html",
     "group": "utils"
   },
   {
     "id": "star-docs",
     "name": "⭐ STAR documentation",
     "description": "SAS code documentation generated automatically by Doxygen from the SAS code comments. This is hosted on SharePoint. It must be manually re-generated when the code changes, and then uploaded to SharePoint.",
-    "url": "https://argenxbvba.sharepoint.com/sites/Biostatistics/Programming%20documentation/html-1.2/index.aspx",
+    "url": "https://argenxbvba.sharepoint.com/sites/Biostatistics/Programming%20documentation/html-1.3/index.aspx",
     "group": "code"
   },
   {
@@ -80,7 +80,7 @@
     "id": "log-viewer",
     "name": "🪓 Log viewer",
     "description": "SAS log viewer which can be used to view logs on LSAF.",
-    "url": "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/logviewer/index.html",
+    "url": "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/logviewer2/index.html",
     "group": "utils"
   },
   {
@@ -108,7 +108,7 @@
     "id": "code-samples",
     "name": "😯 Code samples for producing Graphics",
     "description": "You can see a range of examples of graphs & figures here, produced with either SAS or R. You can then copy the code for use in your own work as a starting point.",
-    "url": "https://argenxbvba.sharepoint.com/sites/Biostatistics/Programming%20documentation/codesamples/index.aspx",
+    "url": "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/tools/codesamples/index.html",
     "group": "code"
   },
   {
@@ -119,10 +119,10 @@
     "group": "code"
   },
   {
-    "id": "dashboard",
-    "name": "Old Dashboard",
-    "description": "Old version of Reporting Event Dashboard.",
-    "url": "https://xarprod.ondemand.sas.com/lsaf/filedownload/sdd%3A///general/biostat/jobs/dashboard/dev/output/dashboard.html",
-    "group": "study"
+    "id": "textviewer",
+    "name": "🔰 Text Viewer",
+    "description": "jean-Michel's Text viewer, which is very flexible working with any text files from LSAF, PC or clipboard.",
+    "url": "https://xarprod.ondemand.sas.com/lsaf/webdav/repo/general/biostat/tools/textviewer/index.html",
+    "group": "code"
   }
 ]
