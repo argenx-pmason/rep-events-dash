@@ -49,7 +49,7 @@ function App() {
     webDavPrefix = `https://${hostname}/lsaf/webdav/repo`, // prefix for webdav access to LSAF
     filedownloadPrefix = `https://${hostname}/lsaf/filedownload/sdd%3A//`, // prefix for filedownload access to LSAF
     fileViewerPrefix = `https://${hostname}/lsaf/filedownload/sdd:/general/biostat/tools/fileviewer/index.html?file=`,
-    logViewerPrefix = `https://${hostname}/lsaf/webdav/repo/general/biostat/tools/logviewer2/index.html`,
+    logViewerPrefix = `https://${hostname}/lsaf/webdav/repo/general/biostat/tools/logviewer/index.html`,
     userJsonDir = webDavPrefix + "/general/biostat/metadata/projects", // location of JSON files on LSAF
     sapDir = webDavPrefix + "/general/biostat/jobs/dashboard/dev/metadata", // location of SAP files on LSAF
     [stats, setStats] = useState({}), // stats about the data
@@ -228,7 +228,7 @@ function App() {
           "Open LOT EXCEL spreadsheet for this reporting event (if it exists)",
         renderCell: (cellValues) => {
           const { value, row } = cellValues,
-            { reporting_event_path } = row;
+            { reporting_event_path, lot_really_exists } = row;
           if (value) {
             return (
               <Tooltip title={`Open LOT EXCEL spreadsheet: ${value}`}>
@@ -245,6 +245,7 @@ function App() {
                       )
                       .focus();
                   }}
+                  disabled={!lot_really_exists}
                   sx={{ fontSize: "10px" }}
                 >
                   🟢
