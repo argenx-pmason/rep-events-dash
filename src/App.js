@@ -334,7 +334,7 @@ function App() {
               <Box sx={{ flex: 1, backgroundColor: color }}>
                 <Tooltip title={`Open log viewer`}>
                   <Link
-                    href={logViewerPrefix + "?file=" + row.hrefdblog}
+                    href={logViewerPrefix + "?log=" + row.hrefdblog}
                     target="_blank"
                     rel="noreferrer"
                     sx={{ fontSize: "10px" }}
