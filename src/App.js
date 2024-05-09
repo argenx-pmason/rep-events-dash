@@ -105,7 +105,28 @@ function App() {
       },
       { field: "indication", headerName: "Indication", width: 80 },
       { field: "study", headerName: "Study", width: 100 },
-      { field: "re", headerName: "Reporting Event", width: 175 },
+      {
+        field: "re",
+        headerName: "Reporting Event",
+        width: 175,
+        renderCell: (cellValues) => {
+          const { value } = cellValues;
+          let color = "white";
+          if (value.includes("/")) color = green;
+          return <Box sx={{ flex: 1, backgroundColor: color }}>{value}</Box>;
+        },
+        renderHeader: (params) => (
+          <Tooltip title="CRO oversight reporting events are highlighted in green">
+            <Box
+              className={
+                "MuiDataGrid-columnHeaderTitle css-t89xny-MuiDataGrid-columnHeaderTitle"
+              }
+            >
+              Reporting Event
+            </Box>
+          </Tooltip>
+        ),
+      },
       {
         field: "reporting_event_path",
         headerName: "File Viewer",
