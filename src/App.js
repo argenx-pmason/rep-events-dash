@@ -1120,8 +1120,7 @@ function App() {
               </Box>
             )}
           </DialogContent>
-        </Dialog>{" "}
-        )
+        </Dialog>
       </Box>
     </div>
   );
