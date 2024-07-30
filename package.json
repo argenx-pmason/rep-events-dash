@@ -1,7 +1,7 @@
 {
   "name": "rep-events-dash",
   "version": "1.0.0",
-  "homepage": "/lsaf/filedownload/sdd%3A///general/biostat/tools/rep-events-dash",
+  "homepage": "/lsaf/webdav/repo/general/biostat/tools/rep-events-dash",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
