@@ -39,7 +39,7 @@ import { setSapCheck } from "./functions";
 
 // apply the license for data grid
 LicenseInfo.setLicenseKey(
-  "369a1eb75b405178b0ae6c2b51263cacTz03MTMzMCxFPTE3MjE3NDE5NDcwMDAsUz1wcm8sTE09c3Vic2NyaXB0aW9uLEtWPTI="
+  "6b1cacb920025860cc06bcaf75ee7a66Tz05NDY2MixFPTE3NTMyNTMxMDQwMDAsUz1wcm8sTE09c3Vic2NyaXB0aW9uLEtWPTI="
 );
 
 function App() {
@@ -562,12 +562,12 @@ function App() {
 
   return (
     <div className="App">
-      <AppBar position="static">
+      <AppBar position="static" sx={{ backgroundColor: "#f7f7f7" }}>
         <Toolbar variant="dense">
           <Tooltip title="Useful links">
             <IconButton
               edge="start"
-              color="inherit"
+              color="info"
               sx={{ mr: 2 }}
               onClick={handleClickMenu}
               aria-label="menu"
@@ -578,7 +578,20 @@ function App() {
               <MenuIcon />
             </IconButton>
           </Tooltip>
-          <Box color="inherit">Reporting Events Dashboard</Box>
+          <Box
+            sx={{
+              border: 1,
+              borderRadius: 2,
+              color: "black",
+              fontWeight: "bold",
+              boxShadow: 3,
+              fontSize: 14,
+              height: 23,
+              padding: 0.3,
+            }}
+          >
+            &nbsp;Reporting Events Dashboard&nbsp;
+          </Box>
           <Box sx={{ flexGrow: 1 }}></Box>
           {cmnts && (
             <Tooltip title={`View ${cmnts.length} issues found`}>
@@ -605,7 +618,7 @@ function App() {
                 onClick={() => {
                   setOpenAllsummtot(true);
                 }}
-                color="inherit"
+                color="info"
                 sx={{
                   // mt: 0.75,
                   fontSize: "0.8em",
@@ -625,7 +638,7 @@ function App() {
                 onClick={() => {
                   setOpenAllsumm(true);
                 }}
-                color="inherit"
+                color="info"
                 sx={{
                   // mt: 0.75,
                   fontSize: "0.8em",
@@ -640,11 +653,16 @@ function App() {
             </Tooltip>
           )}
           <Box
-            sx={{ flexGrow: 0.5, fontSize: "0.8em", textAlign: "right" }}
+            sx={{
+              flexGrow: 0.5,
+              fontSize: "0.8em",
+              textAlign: "right",
+              color: "#0288d1",
+            }}
           >{`Active Reporting Events (${stats.repEvents}), with dashboard (${stats.dashboards}) - Total created SAS programs: ${stats.totalProgs} - Total created outputs: ${stats.totalOutputs}`}</Box>
           <Tooltip title="Information about this screen">
             <IconButton
-              color="inherit"
+              color="info"
               // sx={{ mr: 2 }}
               onClick={() => {
                 setOpenInfo(true);
