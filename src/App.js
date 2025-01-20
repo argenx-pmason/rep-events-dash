@@ -44,12 +44,13 @@ LicenseInfo.setLicenseKey(
 
 function App() {
   document.title = "Reporting Events";
-  const { href, hostname } = window.location, // get the URL so we can work out where we are running
+  const { href } = window.location, // get the URL so we can work out where we are running
+  server = href.split("//")[1].split("/")[0],
     mode = href.startsWith("http://localhost") ? "local" : "remote", // local or remote, which is then used for development and testing
-    webDavPrefix = `https://${hostname}/lsaf/webdav/repo`, // prefix for webdav access to LSAF
-    filedownloadPrefix = `https://${hostname}/lsaf/filedownload/sdd%3A//`, // prefix for filedownload access to LSAF
-    fileViewerPrefix = `https://${hostname}/lsaf/filedownload/sdd:/general/biostat/tools/fileviewer/index.html?file=`,
-    logViewerPrefix = `https://${hostname}/lsaf/webdav/repo/general/biostat/tools/logviewer/index.html`,
+    webDavPrefix = `https://${server}/lsaf/webdav/repo`, // prefix for webdav access to LSAF
+    filedownloadPrefix = `https://${server}/lsaf/filedownload/sdd%3A//`, // prefix for filedownload access to LSAF
+    fileViewerPrefix = `https://${server}/lsaf/filedownload/sdd:/general/biostat/apps/fileviewer/index.html?file=`,
+    logViewerPrefix = `https://${server}/lsaf/webdav/repo/general/biostat/apps/logviewer/index.html`,
     userJsonDir = webDavPrefix + "/general/biostat/metadata/projects", // location of JSON files on LSAF
     sapDir = webDavPrefix + "/general/biostat/jobs/dashboard/dev/metadata", // location of SAP files on LSAF
     [stats, setStats] = useState({}), // stats about the data
@@ -848,7 +849,7 @@ function App() {
               <li>
                 Data for this report is produced by the SAS program{" "}
                 <a
-                  href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=/general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas`}
+                  href={`https://${server}/lsaf/webdav/repo/general/biostat/apps/fileviewer/index.html?file=/general/biostat/gadam/documents/gadam_dshb/gadam_jobs/gadam_jobs_info.sas`}
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -862,7 +863,7 @@ function App() {
               <ul>
                 <li>
                   <a
-                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/metapluslink.json`}
+                    href={`https://${server}/lsaf/webdav/repo/general/biostat/apps/fileviewer/index.html?file=https://${server}/lsaf/webdav/repo/general/biostat/metadata/projects/metapluslink.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -871,7 +872,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/cmnts.json`}
+                    href={`https://${server}/lsaf/webdav/repo/general/biostat/apps/fileviewer/index.html?file=https://${server}/lsaf/webdav/repo/general/biostat/metadata/projects/cmnts.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -880,7 +881,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/allsummtot.json`}
+                    href={`https://${server}/lsaf/webdav/repo/general/biostat/apps/fileviewer/index.html?file=https://${server}/lsaf/webdav/repo/general/biostat/metadata/projects/allsummtot.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -889,7 +890,7 @@ function App() {
                 </li>
                 <li>
                   <a
-                    href={`https://${hostname}/lsaf/webdav/repo/general/biostat/tools/fileviewer/index.html?file=https://${hostname}/lsaf/webdav/repo/general/biostat/metadata/projects/allsumm.json`}
+                    href={`https://${server}/lsaf/webdav/repo/general/biostat/apps/fileviewer/index.html?file=https://${server}/lsaf/webdav/repo/general/biostat/metadata/projects/allsumm.json`}
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -968,7 +969,7 @@ function App() {
                     onClick={() => {
                       window
                         .open(
-                          `https://${hostname}/lsaf/filedownload/sdd:` +
+                          `https://${server}/lsaf/filedownload/sdd:` +
                             selectedLot.xlsx,
                           "_blank"
                         )
@@ -993,7 +994,7 @@ function App() {
                     onClick={() => {
                       setSapCheck(
                         selectedLot,
-                        `https://${hostname}/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json`,
+                        `https://${server}/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json`,
                         1,
                         setMessage
                       );
@@ -1017,7 +1018,7 @@ function App() {
                     onClick={() => {
                       setSapCheck(
                         selectedLot,
-                        `https://${hostname}/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json`,
+                        `https://${server}/lsaf/webdav/repo/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json`,
                         -1,
                         setMessage
                       );
@@ -1056,7 +1057,7 @@ function App() {
                       window
                         .open(
                           filedownloadPrefix +
-                            "/general/biostat/tools/view/index.html?lsaf=" +
+                            "/general/biostat/apps/view/index.html?lsaf=" +
                             "/general/biostat/jobs/dashboard/dev/metadata/sap_updates.json",
                           "_blank"
                         )
@@ -1080,7 +1081,7 @@ function App() {
                     onClick={() => {
                       window
                         .open(
-                          `https://${hostname}/lsaf/filedownload/sdd:` +
+                          `https://${server}/lsaf/filedownload/sdd:` +
                             selectedLot.docx,
                           "_blank"
                         )
