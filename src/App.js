@@ -190,7 +190,7 @@ function App() {
       // },
       {
         field: "relink_new",
-        headerName: "New Dash",
+        headerName: "Dash",
         width: iconWidth,
         align: "center",
         headerAlign: "center",
@@ -198,12 +198,13 @@ function App() {
         renderCell: (cellValues) => {
           const { value } = cellValues;
           if (value) {
+            const value2 = value.replace('/tools/','/apps/')
             return (
               <Tooltip title={`Open new study dashboard`}>
                 <IconButton
                   color="info"
                   onClick={() => {
-                    window.open(value, "_blank").focus();
+                    window.open(value2, "_blank").focus();
                   }}
                   sx={{ fontSize: "16px" }}
                 >
